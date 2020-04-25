@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Coordenadas" representedClassName="Coordenadas" syncable="YES">
+        <attribute name="altitud" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Entity" representedClassName="Entity" syncable="YES" codeGenerationType="class"/>
+    <entity name="Ubicacion" representedClassName="Ubicacion" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="latitud" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longitud" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Usuarios" representedClassName="Usuarios" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="nombre" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Coordenadas" positionX="-54" positionY="-9" width="128" height="58"/>
+        <element name="Entity" positionX="-45" positionY="27" width="128" height="43"/>
+        <element name="Usuarios" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="Ubicacion" positionX="-54" positionY="9" width="128" height="88"/>
+    </elements>
 </model>

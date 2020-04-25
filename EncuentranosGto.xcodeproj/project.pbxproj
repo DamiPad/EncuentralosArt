@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D2F7E6A245403FE00F8C2F5 /* Inicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F7E69245403FE00F8C2F5 /* Inicio.swift */; };
+		2D9EDCBE2452854300E9BFBA /* Usuarios+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9EDCBC2452854300E9BFBA /* Usuarios+CoreDataClass.swift */; };
+		2D9EDCBF2452854300E9BFBA /* Usuarios+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9EDCBD2452854300E9BFBA /* Usuarios+CoreDataProperties.swift */; };
+		2D9EDCC72452D42F00E9BFBA /* DependSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9EDCC62452D42F00E9BFBA /* DependSheet.swift */; };
+		2DD87CCF24532902004E90A8 /* DependUbication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD87CCE24532902004E90A8 /* DependUbication.swift */; };
 		2DD8DF9724512F490049C636 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8DF9624512F490049C636 /* AppDelegate.swift */; };
 		2DD8DF9924512F490049C636 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8DF9824512F490049C636 /* SceneDelegate.swift */; };
 		2DD8DF9C24512F490049C636 /* EncuentranosGto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8DF9A24512F490049C636 /* EncuentranosGto.xcdatamodeld */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D2F7E69245403FE00F8C2F5 /* Inicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inicio.swift; sourceTree = "<group>"; };
+		2D9EDCBC2452854300E9BFBA /* Usuarios+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Usuarios+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2D9EDCBD2452854300E9BFBA /* Usuarios+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Usuarios+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2D9EDCC62452D42F00E9BFBA /* DependSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependSheet.swift; sourceTree = "<group>"; };
+		2DD87CCE24532902004E90A8 /* DependUbication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependUbication.swift; sourceTree = "<group>"; };
 		2DD8DF9324512F490049C636 /* EncuentranosGto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EncuentranosGto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD8DF9624512F490049C636 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DD8DF9824512F490049C636 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +52,8 @@
 		2DD8DF8A24512F490049C636 = {
 			isa = PBXGroup;
 			children = (
+				2D9EDCBC2452854300E9BFBA /* Usuarios+CoreDataClass.swift */,
+				2D9EDCBD2452854300E9BFBA /* Usuarios+CoreDataProperties.swift */,
 				2DD8DF9524512F490049C636 /* EncuentranosGto */,
 				2DD8DF9424512F490049C636 /* Products */,
 			);
@@ -66,6 +78,9 @@
 				2DD8DFA724512F510049C636 /* Info.plist */,
 				2DD8DF9A24512F490049C636 /* EncuentranosGto.xcdatamodeld */,
 				2DD8DFA124512F510049C636 /* Preview Content */,
+				2D9EDCC62452D42F00E9BFBA /* DependSheet.swift */,
+				2DD87CCE24532902004E90A8 /* DependUbication.swift */,
+				2D2F7E69245403FE00F8C2F5 /* Inicio.swift */,
 			);
 			path = EncuentranosGto;
 			sourceTree = "<group>";
@@ -150,9 +165,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DD8DF9724512F490049C636 /* AppDelegate.swift in Sources */,
+				2D9EDCBE2452854300E9BFBA /* Usuarios+CoreDataClass.swift in Sources */,
 				2DD8DF9924512F490049C636 /* SceneDelegate.swift in Sources */,
 				2DD8DF9E24512F490049C636 /* ContentView.swift in Sources */,
+				2D9EDCBF2452854300E9BFBA /* Usuarios+CoreDataProperties.swift in Sources */,
 				2DD8DF9C24512F490049C636 /* EncuentranosGto.xcdatamodeld in Sources */,
+				2D2F7E6A245403FE00F8C2F5 /* Inicio.swift in Sources */,
+				2DD87CCF24532902004E90A8 /* DependUbication.swift in Sources */,
+				2D9EDCC72452D42F00E9BFBA /* DependSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
